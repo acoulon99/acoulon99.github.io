@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    background-image: url('img/sky-night-stars.jpg');
+    background-size: cover;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+#main {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main img {
+    width: 250px;
+    height: 250px;
+    background: white;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 60px;
+}
+
+#main .name {
+    text-shadow: 3px 4px #000000;
+}
+
+#main button {
+    font-size: 150%;
+    border-radius: 15px 30px;
+    padding: 10px 25px;
+    color: white;
+    background: black;
+    border-color: white;
+}
+
+#credits {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-size: 80%;
+}
